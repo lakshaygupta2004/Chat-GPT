@@ -7,7 +7,7 @@ export default function ProtectedRoute({ children }) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/auth/check", { withCredentials: true })
+      .get("https://chat-gpt-ikbk.onrender.com/api/auth/check", { withCredentials: true })
       .then((res) => {
         if (res.data.authenticated) {
           setAuth(true);
