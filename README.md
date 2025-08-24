@@ -162,9 +162,7 @@ npm run dev
 ```
 ## 🚀 Deployment
 
-- Frontend → Vercel
-
-- Backend → Render
+- Frontend & Backend → Render ➡️ https://chat-gpt-ikbk.onrender.com
 
 - Database → MongoDB Atlas
 
